@@ -1,3 +1,4 @@
 import { Anim } from "./class/anim";
+import config from 'src/config.json'
 
-new Anim(333, -120, 0).test()
+new Anim(config.scaledImageHeight, config.imageX, config.imageY).test()
